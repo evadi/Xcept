@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Xcept",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "A chrome extension that informs you when errors have occured on a page",
+    "description": "The description of the application"
+  }
+}
