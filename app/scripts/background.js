@@ -1,14 +1,6 @@
 'use strict';
 
 /**
- * Hide the pageAction icon when the tab is updated as there may not be
- * any errors
- */
-chrome.tabs.onUpdated.addListener(function (tabId) {
-  chrome.pageAction.hide(tabId);
-});
-
-/**
  * Listens for requests from page scripts. If errors exist on pages
  * then the pageAction icon is shown
  */
