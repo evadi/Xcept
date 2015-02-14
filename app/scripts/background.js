@@ -14,7 +14,6 @@ chrome.tabs.onUpdated.addListener(function (tabId) {
  */
 chrome.extension.onRequest.addListener(function(request, sender) {
 	if (request.errors) {
-		console.log(request.errors);
 		var hasErrors = request.errors.length > 0;
 		if (hasErrors) {
 			//show the error icon
