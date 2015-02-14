@@ -1,5 +1,7 @@
 /* global describe, it */
 
+var content = require("../../app/scripts/contentscript.js");
+
 (function () {
   'use strict';
 
